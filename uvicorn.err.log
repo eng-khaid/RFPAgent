@@ -1,0 +1,22 @@
+INFO:     Started server process [14592]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 1791.29it/s]
+[32m[INFO] 2026-06-15 16:55:52,374 [RapidOCR] base.py:22: Using engine_name: onnxruntime[0m
+[32m[INFO] 2026-06-15 16:55:52,446 [RapidOCR] download_file.py:60: File exists and is valid: C:\Python\SDA\HACKATHON\.venv\Lib\site-packages\rapidocr\models\ch_PP-OCRv4_det_mobile.onnx[0m
+[32m[INFO] 2026-06-15 16:55:52,448 [RapidOCR] main.py:65: Using C:\Python\SDA\HACKATHON\.venv\Lib\site-packages\rapidocr\models\ch_PP-OCRv4_det_mobile.onnx[0m
+[32m[INFO] 2026-06-15 16:55:53,065 [RapidOCR] base.py:22: Using engine_name: onnxruntime[0m
+[32m[INFO] 2026-06-15 16:55:53,074 [RapidOCR] download_file.py:60: File exists and is valid: C:\Python\SDA\HACKATHON\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx[0m
+[32m[INFO] 2026-06-15 16:55:53,075 [RapidOCR] main.py:65: Using C:\Python\SDA\HACKATHON\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx[0m
+[32m[INFO] 2026-06-15 16:55:53,342 [RapidOCR] base.py:22: Using engine_name: onnxruntime[0m
+[32m[INFO] 2026-06-15 16:55:53,369 [RapidOCR] download_file.py:60: File exists and is valid: C:\Python\SDA\HACKATHON\.venv\Lib\site-packages\rapidocr\models\ch_PP-OCRv4_rec_mobile.onnx[0m
+[32m[INFO] 2026-06-15 16:55:53,370 [RapidOCR] main.py:65: Using C:\Python\SDA\HACKATHON\.venv\Lib\site-packages\rapidocr\models\ch_PP-OCRv4_rec_mobile.onnx[0m
+C:\Python\SDA\HACKATHON\.venv\Lib\site-packages\huggingface_hub\file_download.py:137: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\mrkhl\.cache\huggingface\hub\models--docling-project--docling-layout-heron. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Loading weights:   0%|          | 0/770 [00:00<?, ?it/s]Loading weights:  40%|###9      | 307/770 [00:00<00:00, 3046.56it/s]Loading weights:  79%|#######9  | 612/770 [00:00<00:00, 2866.22it/s]Loading weights: 100%|##########| 770/770 [00:00<00:00, 2768.37it/s]
+C:\Python\SDA\HACKATHON\.venv\Lib\site-packages\huggingface_hub\file_download.py:137: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\mrkhl\.cache\huggingface\hub\models--docling-project--docling-models. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
